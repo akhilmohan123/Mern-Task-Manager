@@ -10,6 +10,6 @@ connectDB()
 app.use('',userrouter)
 
 
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log("Server is listening to the port")
 })
